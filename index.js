@@ -36,8 +36,6 @@ function stripComments (input, options) {
           inComment = tok.buffer ? stripBuffered : stripUnbuffered;
           return !inComment;
         }
-      case 'text':
-        return !inComment;
       case 'start-pipeless-text':
         if (!inComment) return true;
         if (inPipelessText) {
@@ -59,6 +57,10 @@ function stripComments (input, options) {
         inPipelessText = false;
         inComment = false;
         return false;
+      // There might be a `text` right after `comment` but before
+      // `start-pipeless-text`. Treat it accordingly.
+      case 'text':
+        return !inComment;
       default:
         if (inPipelessText) return false;
         inComment = false;
