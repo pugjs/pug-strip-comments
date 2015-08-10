@@ -1,6 +1,6 @@
 {
   "name": "jade-strip-comments",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Strip comments from a Jade token stream (from the lexer)",
   "keywords": [
     "jade"
