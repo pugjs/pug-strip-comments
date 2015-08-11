@@ -13,7 +13,7 @@ Strips comments from Jade token stream
 ## Usage
 
 ```js
-var lex = require('jade-strip-comments');
+var lex = require('jade-lexer');
 var stripComments = require('jade-strip-comments');
 
 var tokens = lex('//- unbuffered\n// buffered');
