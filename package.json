@@ -1,12 +1,12 @@
 {
-  "name": "jade-strip-comments",
+  "name": "pug-strip-comments",
   "version": "1.0.0",
-  "description": "Strip comments from a Jade token stream (from the lexer)",
+  "description": "Strip comments from a Pug token stream (from the lexer)",
   "keywords": [
-    "jade"
+    "pug"
   ],
   "dependencies": {
-    "jade-error": "^1.0.0"
+    "pug-error": "^1.0.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.2",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jadejs/jade-strip-comments.git"
+    "url": "https://github.com/pugjs/pug-strip-comments.git"
   },
   "author": "Timothy Gu <timothygu99@gmail.com>",
   "license": "MIT"
