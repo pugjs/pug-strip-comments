@@ -3,7 +3,7 @@
 Strips comments from Pug token stream
 
 [![Build Status](https://img.shields.io/travis/pugjs/pug-strip-comments/master.svg)](https://travis-ci.org/pugjs/pug-strip-comments)
-[![Dependency Status](https://img.shields.io/gemnasium/pugjs/pug-strip-comments.svg)](https://gemnasium.com/pugjs/pug-strip-comments)
+[![Dependency Status](https://img.shields.io/david/pugjs/pug-strip-comments.svg)](https://david-dm.org/pugjs/pug-strip-comments)
 [![NPM version](https://img.shields.io/npm/v/pug-strip-comments.svg)](https://www.npmjs.org/package/pug-strip-comments)
 
 ## Installation
